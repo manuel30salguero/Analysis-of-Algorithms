@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-10-21T21:41:03.176610+00:00",
+  "dataset_zip_sha256": "6ad1fa0125e3cddcbe4d182e41cd12a854a11b0c733b26c706595f6db5c254e0",
+  "scope": "All 21 supplied training label files; Car only; every consecutive index pair from zero through each file maximum frame; ground-truth boxes as geometry, no detector or persistent tracker. No identity-based selection.",
+  "ordering": "Lexicographic (cx, cy, width, height), never identity or annotation order. Duplicate geometry rejected to avoid unspecified identity-bearing ties.",
+  "baseline": {
+    "penalty_per_unmatched": 600000,
+    "integer_scale": 1000000,
+    "distance_gate_px": 80,
+    "distance_cost": "round(1000000 * center_distance / distance_gate_px)",
+    "minimum_iou": 0.05,
+    "iou_cost": "round(1000000*(1-IoU))"
+  },
+  "sensitivity": "One factor at a time: penalty 400000 or 800000, distance gate 40 or 160 px (including its normalization), IoU gate 0 or 0.2. No selection of best setting after results.",
+  "evaluation": "IDs used after both predictions only. Eligible = same Car identity observed in both consecutive frames, including gated-out pairs. Precision correct/predicted; recall correct/eligible; undefined denominators NaN.",
+  "timing": "Baseline only. steady_clock; one pilot then 3 batches, each targeting 200 us with cap 64; allocation, box checks, cost construction and assignment included; parse, ordering, ID evaluation, CSV and certificates excluded. Median per pair, then median over active pairs. Alternate method order by frame parity.",
+  "subgroups": "Current detection occlusion codes 0,1,2,3; truncation codes 0,1,2; size height <40 vs >=40 px; crowding max(previous,current) <=4 vs 5-8 vs >=9. Descriptive, no inferential test."
+}

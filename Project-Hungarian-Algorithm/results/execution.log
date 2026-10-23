@@ -1,0 +1,60 @@
+/workspace/scratch/0a02851e5945/Hungarian_Project/repository/build/lap_benchmark full /workspace/scratch/0a02851e5945/Hungarian_Project/repository/results/full.csv
+uniform n=16 complete
+uniform n=32 complete
+uniform n=64 complete
+uniform n=128 complete
+uniform n=256 complete
+uniform n=512 complete
+uniform n=1024 complete
+planted n=16 complete
+planted n=32 complete
+planted n=64 complete
+planted n=128 complete
+planted n=256 complete
+planted n=512 complete
+planted n=1024 complete
+near_ties n=16 complete
+near_ties n=32 complete
+near_ties n=64 complete
+near_ties n=128 complete
+near_ties n=256 complete
+near_ties n=512 complete
+near_ties n=1024 complete
+equal n=16 complete
+equal n=32 complete
+equal n=64 complete
+equal n=128 complete
+equal n=256 complete
+equal n=512 complete
+equal n=1024 complete
+adversarial n=16 complete
+adversarial n=32 complete
+adversarial n=64 complete
+adversarial n=128 complete
+adversarial n=256 complete
+adversarial n=512 complete
+adversarial n=1024 complete
+/workspace/scratch/0a02851e5945/Hungarian_Project/repository/build/lap_benchmark small /workspace/scratch/0a02851e5945/Hungarian_Project/repository/results/small.csv
+/workspace/scratch/0a02851e5945/Hungarian_Project/repository/build/lap_benchmark rect /workspace/scratch/0a02851e5945/Hungarian_Project/repository/results/rect.csv
+Completed 0000: 154 frames
+Completed 0001: 447 frames
+Completed 0002: 233 frames
+Completed 0003: 144 frames
+Completed 0004: 314 frames
+Completed 0005: 297 frames
+Completed 0006: 270 frames
+Completed 0007: 800 frames
+Completed 0008: 390 frames
+Completed 0009: 803 frames
+Completed 0010: 294 frames
+Completed 0011: 373 frames
+Completed 0012: 78 frames
+Completed 0013: 340 frames
+Completed 0014: 106 frames
+Completed 0015: 376 frames
+Completed 0016: 209 frames
+Completed 0017: 145 frames
+Completed 0018: 339 frames
+Completed 0019: 1059 frames
+Completed 0020: 837 frames
+PASS: 159740 paired configuration/method records; all certificates and optional objectives verified.

@@ -1,0 +1,145 @@
+{
+  "totals": {
+    "frames": 8008,
+    "pairs": 7987,
+    "car_boxes": 27300,
+    "car_frames": 6486,
+    "active_pairs": 6489
+  },
+  "max_cars": 16,
+  "max_augmented_order": 31,
+  "aggregate": [
+    {
+      "metric": "distance",
+      "method": "greedy",
+      "pairs": 7987,
+      "eligible": 26719,
+      "gate_eligible": 26665,
+      "predicted": 26606,
+      "correct": 26158,
+      "incorrect": 448,
+      "objective": 3739712496,
+      "active_pairs": 6489,
+      "precision_pct": 98.31616928512365,
+      "recall_pct": 97.9003705228489,
+      "objective_normalized": 3739.712496,
+      "median_us": 0.28996875,
+      "q1_us": 0.135515625,
+      "q3_us": 0.60965625
+    },
+    {
+      "metric": "distance",
+      "method": "hungarian",
+      "pairs": 7987,
+      "eligible": 26719,
+      "gate_eligible": 26665,
+      "predicted": 26646,
+      "correct": 26500,
+      "incorrect": 146,
+      "objective": 3697007284,
+      "active_pairs": 6489,
+      "precision_pct": 99.45207535840277,
+      "recall_pct": 99.18035854635278,
+      "objective_normalized": 3697.007284,
+      "median_us": 0.476484375,
+      "q1_us": 0.2718125,
+      "q3_us": 1.249203125
+    },
+    {
+      "metric": "iou",
+      "method": "greedy",
+      "pairs": 7987,
+      "eligible": 26719,
+      "gate_eligible": 26637,
+      "predicted": 26593,
+      "correct": 26350,
+      "incorrect": 243,
+      "objective": 5634240124,
+      "active_pairs": 6489,
+      "precision_pct": 99.08622569849209,
+      "recall_pct": 98.61896029043002,
+      "objective_normalized": 5634.240124,
+      "median_us": 0.262578125,
+      "q1_us": 0.143640625,
+      "q3_us": 0.63953125
+    },
+    {
+      "metric": "iou",
+      "method": "hungarian",
+      "pairs": 7987,
+      "eligible": 26719,
+      "gate_eligible": 26637,
+      "predicted": 26650,
+      "correct": 26538,
+      "incorrect": 112,
+      "objective": 5605425677,
+      "active_pairs": 6489,
+      "precision_pct": 99.57973733583489,
+      "recall_pct": 99.32257943785321,
+      "objective_normalized": 5605.425677,
+      "median_us": 0.4855625,
+      "q1_us": 0.277125,
+      "q3_us": 1.27784375
+    }
+  ],
+  "paired": [
+    {
+      "metric": "distance",
+      "pairs": 7987,
+      "strict_objective_win": 160,
+      "equal_objective": 7827,
+      "h_more_correct": 148,
+      "equal_correct": 7827,
+      "g_more_correct": 12,
+      "lower_cost_fewer_correct": 12,
+      "max_objective_gap": 1065371
+    },
+    {
+      "metric": "iou",
+      "pairs": 7987,
+      "strict_objective_win": 91,
+      "equal_objective": 7896,
+      "h_more_correct": 83,
+      "equal_correct": 7901,
+      "g_more_correct": 3,
+      "lower_cost_fewer_correct": 3,
+      "max_objective_gap": 1299922
+    }
+  ],
+  "first_counterexamples": [
+    {
+      "sequence": "0001",
+      "frame": 375,
+      "metric": "distance",
+      "config": "baseline",
+      "objective_h": 892167,
+      "objective_g": 1055266,
+      "correct_h": 1,
+      "correct_g": 3,
+      "predicted_h": 3,
+      "predicted_g": 3,
+      "objective_gap": 163099,
+      "correct_gain": -2
+    },
+    {
+      "sequence": "0004",
+      "frame": 26,
+      "metric": "iou",
+      "config": "baseline",
+      "objective_h": 5877862,
+      "objective_g": 6368081,
+      "correct_h": 2,
+      "correct_g": 3,
+      "predicted_h": 7,
+      "predicted_g": 5,
+      "objective_gap": 490219,
+      "correct_gain": -1
+    }
+  ],
+  "raw_counts": {
+    "pairs": 159740,
+    "timing": 95844,
+    "objects": 108964
+  },
+  "total_certificates": 79870
+}
