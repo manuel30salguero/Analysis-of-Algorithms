@@ -8,7 +8,7 @@ Shared columns: `family,rows,cols,seed,algorithm,rep,inner,time_us,cost,optimum,
 
 Aggregation takes the median repetition for each instance, then the median over seeds. Random-family IQRs describe instance medians; deterministic-family IQRs describe three timing repetitions. Fits use dimensions 64–1024 and are descriptive. Relative gaps are used only for positive benchmark optima.
 
-`memory.csv` has ten fresh-process observations. `input_bytes` is cost storage; `workspace_bytes` sums owned vector element capacities, excluding input, headers, allocator metadata and sorting stack; `peak_rss_kib` is Linux process high-water RSS. It includes more than algorithm workspace. See `MEMORY_RERUN_NOTE.md` for the complete rerun after a missing initial output record.
+`memory.csv` has ten fresh-process observations. `input_bytes` is cost storage; `workspace_bytes` sums owned vector element capacities, excluding input, headers, allocator metadata and sorting stack; `peak_rss_kib` is Linux process high-water RSS. It includes more than algorithm workspace.
 
 ## Verification
 
