@@ -1,0 +1,1 @@
+The initial final run produced nine memory rows despite successful process exits. All ten fresh-process memory measurements were rerun serially on CPU 0 with the same final solver binary. The driver now captures, verifies, and flushes each record. Analysis requires exactly ten rows. Matrix and KITTI timing code and measurements were unaffected.

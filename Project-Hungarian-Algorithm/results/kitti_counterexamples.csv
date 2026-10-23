@@ -1,0 +1,16 @@
+sequence,frame,metric,config,objective_h,objective_g,correct_h,correct_g,predicted_h,predicted_g,objective_gap,correct_gain
+0001,375,distance,baseline,892167,1055266,1,3,3,3,163099,-2
+0001,380,distance,baseline,521892,638281,1,3,3,3,116389,-2
+0002,125,distance,baseline,586837,589930,2,6,6,6,3093,-4
+0004,26,distance,baseline,4076835,4302609,2,3,7,7,225774,-1
+0004,27,distance,baseline,4425331,4626143,1,2,6,6,200812,-1
+0004,28,distance,baseline,4328883,4488679,1,2,6,6,159796,-1
+0004,29,distance,baseline,4439465,4595033,1,2,6,6,155568,-1
+0004,30,distance,baseline,4119129,4293144,2,3,7,7,174015,-1
+0004,31,distance,baseline,4042999,4259482,1,2,6,6,216483,-1
+0004,33,distance,baseline,3771687,3999162,2,3,5,5,227475,-1
+0009,137,distance,baseline,2664290,2751569,4,5,6,6,87279,-1
+0009,664,distance,baseline,1964212,1976438,3,5,5,5,12226,-2
+0004,26,iou,baseline,5877862,6368081,2,3,7,5,490219,-1
+0004,27,iou,baseline,5971824,6426007,2,3,7,5,454183,-1
+0004,28,iou,baseline,5964618,6379495,2,3,7,5,414877,-1

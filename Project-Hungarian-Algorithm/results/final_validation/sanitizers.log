@@ -1,0 +1,37 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspace/scratch/0a02851e5945/Hungarian_Project/repository/build_sanitize_final
+[  7%] Building CXX object CMakeFiles/assignment.dir/src/assignment.cpp.o
+[ 15%] Building CXX object CMakeFiles/assignment.dir/src/tracking.cpp.o
+[ 23%] Linking CXX static library libassignment.a
+[ 23%] Built target assignment
+[ 30%] Building CXX object CMakeFiles/lap_benchmark.dir/src/benchmark.cpp.o
+[ 38%] Building CXX object CMakeFiles/lap_main.dir/src/main.cpp.o
+[ 46%] Linking CXX executable lap_main
+[ 46%] Built target lap_main
+[ 53%] Building CXX object CMakeFiles/lap_tracking_experiment.dir/src/tracking_experiment.cpp.o
+[ 61%] Linking CXX executable lap_benchmark
+[ 61%] Built target lap_benchmark
+[ 69%] Building CXX object CMakeFiles/test_assignment.dir/tests/test_assignment.cpp.o
+[ 76%] Linking CXX executable test_assignment
+[ 76%] Built target test_assignment
+[ 84%] Building CXX object CMakeFiles/test_tracking.dir/tests/test_tracking.cpp.o
+[ 92%] Linking CXX executable lap_tracking_experiment
+[ 92%] Built target lap_tracking_experiment
+[100%] Linking CXX executable test_tracking
+[100%] Built target test_tracking
+Test project /workspace/scratch/0a02851e5945/Hungarian_Project/repository/build_sanitize_final
+    Start 1: assignment
+1/2 Test #1: assignment .......................   Passed    1.30 sec
+    Start 2: tracking
+2/2 Test #2: tracking .........................   Passed    0.46 sec
+
+100% tests passed out of 2
+
+Total Test time (real) =   1.76 sec
