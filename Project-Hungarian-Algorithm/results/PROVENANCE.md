@@ -21,6 +21,4 @@ Other CSV and JSON files in `results/` are derived summaries used in the analysi
 
 `final_validation/` contains the build, test, sanitizer, and exhaustive-oracle evidence for the final implementation.
 
-The initial memory collection missed one output row even though the solver processes exited successfully. All ten memory measurements were rerun in fresh processes with the same solver binary. The delivered `memory.csv` contains only the complete rerun; details are in `MEMORY_RERUN_NOTE.md`.
-
 Timing values can vary across machines. Deterministic costs, fingerprints, certificate checks, and inspection counts are the stronger reproducibility checks for the algorithmic results.
