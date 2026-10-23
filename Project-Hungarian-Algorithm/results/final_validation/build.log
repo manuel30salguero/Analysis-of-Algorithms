@@ -1,7 +1,0 @@
-rm -rf build
-mkdir -p build
-g++ -Iinclude -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic src/assignment.cpp src/tracking.cpp src/main.cpp -o build/lap_main
-g++ -Iinclude -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic src/assignment.cpp src/tracking.cpp src/benchmark.cpp -o build/lap_benchmark
-g++ -Iinclude -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic src/assignment.cpp src/tracking.cpp src/tracking_experiment.cpp -o build/lap_tracking_experiment
-g++ -Iinclude -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic src/assignment.cpp src/tracking.cpp tests/test_assignment.cpp -o build/test_assignment
-g++ -Iinclude -O3 -DNDEBUG -std=c++17 -Wall -Wextra -Wpedantic src/assignment.cpp src/tracking.cpp tests/test_tracking.cpp -o build/test_tracking
